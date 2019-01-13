@@ -19,8 +19,9 @@ tf.keras.Sequential([
 ```
 
 ## Genarated music example
-Raw output.
+Raw output:  
 ![Genarated music example](images/genarated_music_example.png)
-Discretizesed output. See piano_roll_to_pretty_midi in [music-playground.ipynb](music-playground.ipynb)
+
+Discretizesed output (see piano_roll_to_pretty_midi in [music-playground.ipynb](music-playground.ipynb)):    
 ![Generated music example (discretized)](images/genarated_music_example_midi.png)
 
