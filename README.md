@@ -1,5 +1,5 @@
 # ml_music
-compose music with machine learning
+Compose music with machine learning.
 
 ## Training data
 * music/liszt/liz_donjuan.mid
@@ -7,6 +7,7 @@ compose music with machine learning
 * ...
 
 These are converted to "piano roll" array (time × 128 keys) as preprocessing.
+![Piano roll](images/piano_roll.png)
 
 ## Architecture
 ```
@@ -18,4 +19,8 @@ tf.keras.Sequential([
 ```
 
 ## Genarated music example
+Raw output.
+![Genarated music example](images/genarated_music_example.png)
+Discretizesed output. See piano_roll_to_pretty_midi in [music-playground.ipynb](music-playground.ipynb)
+![Generated music example (discretized)](images/genarated_music_example_midi.png)
 
