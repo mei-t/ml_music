@@ -19,8 +19,14 @@ tf.keras.Sequential([
 ```
 
 ## Genarated music example
-Raw output.
+Raw output:  
 ![Genarated music example](images/genarated_music_example.png)
-Discretizesed output. See piano_roll_to_pretty_midi in [music-playground.ipynb](music-playground.ipynb)
+
+Discretizesed output (see piano_roll_to_pretty_midi in [music-playground.ipynb](music-playground.ipynb)):    
 ![Generated music example (discretized)](images/genarated_music_example_midi.png)
 
+## To use google colab
+Google colab removes all indents and new lines, which is not git-friendly. So, if you want to edit this code in colab, you should copy music-playground.ipynb as music-playground.edit.ipynb and edit music-playground.edit.ipynb. When you commit it, you can use before_commit.py to copy it back to music-playground.ipynb with pretty indent.  
+```
+python before_commit.py
+```
